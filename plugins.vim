@@ -24,6 +24,9 @@ Plug 'tpope/vim-endwise'
 Plug 'rstacruz/vim-closer'
 Plug 'benekastah/neomake'
 Plug 'jszakmeister/vim-togglecursor'
+Plug 'ajh17/Spacegray.vim'
+Plug 'mxw/vim-jsx'
+Plug 'tpope/vim-surround'
 
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'  }

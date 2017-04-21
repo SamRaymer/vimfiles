@@ -141,4 +141,4 @@ so ~/.vim/settings.vim
 
 " =================== Color =========================
 
-color molokai
+color spacegray
