@@ -27,6 +27,10 @@ Plug 'jszakmeister/vim-togglecursor'
 Plug 'ajh17/Spacegray.vim'
 Plug 'mxw/vim-jsx'
 Plug 'tpope/vim-surround'
+Plug 'guns/xterm-color-table.vim'
+Plug 'fmoralesc/molokayo'
+Plug 'morhetz/gruvbox'
+Plug 'chriskempson/base16-vim'
 
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'  }
