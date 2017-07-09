@@ -14,6 +14,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-git'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tpope/vim-eunuch'
 Plug 'janko-m/vim-test'
 Plug 'rizzatti/dash.vim'
