@@ -1,7 +1,5 @@
 call plug#begin('~/.vim/plugged')
 
-
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " General
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -32,6 +30,7 @@ Plug 'guns/xterm-color-table.vim'
 Plug 'fmoralesc/molokayo'
 Plug 'morhetz/gruvbox'
 Plug 'chriskempson/base16-vim'
+Plug 'Quramy/tsuquyomi'
 
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'  }
@@ -40,9 +39,10 @@ if has('nvim')
 
   Plug 'kassio/neoterm'
 else
-  Plug 'Valloric/YouCompleteMe', {
-        \ 'for': ['elixir', 'eelixir', 'javascript', 'javascript.jsx'],
-        \ 'do': './install.py --tern-completer'
+  Plug 'Valloric/YouCompleteMe'
+        \,{
+        \ 'for': ['elixir', 'eelixir', 'javascript', 'javascript.js'],
+        \ 'do': './install.py'
         \}
   Plug 'larrylv/ycm-elixir', { 'for': ['elixir', 'eelixir'] }
   Plug 'flowtype/vim-flow', { 'for': ['javascript', 'javascript.jsx'] }
