@@ -31,6 +31,11 @@ Plug 'fmoralesc/molokayo'
 Plug 'morhetz/gruvbox'
 Plug 'chriskempson/base16-vim'
 Plug 'Quramy/tsuquyomi'
+Plug 'prettier/vim-prettier', {
+      \ 'do': 'npm install',
+      \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss'] }
+Plug 'LucHermitte/local_vimrc'
+Plug 'LucHermitte/lh-vim-lib'
 
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins'  }
