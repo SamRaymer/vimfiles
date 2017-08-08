@@ -46,7 +46,7 @@ if has('nvim')
 else
   Plug 'Valloric/YouCompleteMe'
         \,{
-        \ 'for': ['elixir', 'eelixir', 'javascript', 'javascript.js'],
+        \ 'for': ['elixir', 'eelixir', 'javascript', 'javascript.jsx'],
         \ 'do': './install.py'
         \}
   Plug 'larrylv/ycm-elixir', { 'for': ['elixir', 'eelixir'] }
