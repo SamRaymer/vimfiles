@@ -79,6 +79,8 @@ set formatoptions=cqrj
 nnoremap p p=`]<C-o>
 nnoremap P P=`]<C-o>
 
+map <leader>w :w<cr>
+
 filetype plugin on
 filetype indent on
 

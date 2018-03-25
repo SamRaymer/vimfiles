@@ -34,4 +34,4 @@ let g:neomake_elixir_lint_maker = {
 let g:neomake_elixir_enabled_makers = ['mix', 'lint']
 
 
-autocmd! BufWritePost * Neomake
+" autocmd! BufWritePost * Neomake
